@@ -4,6 +4,8 @@ import Home from "@/components/Home";
 import { products } from "@/data/products";
 import Link from "next/link";
 import { Metadata } from "next";
+import Image from "next/image";
+
 
 export const metadata: Metadata = {
   title: "HoodbaEcommerce",
@@ -25,7 +27,7 @@ export default function HomePage() {
         <p className="text-gray-600 mt-4 md:mt-6 text-lg mb-6">
           Shop for quality groceries and household essentials from the comfort of your home.
         </p>
-        <Button size="lg" className="mt-6">Start Shopping</Button>
+        <Button size="icon" variant="ghost">Start Shopping</Button>
       </section>
 
       {/* Sección de Categorías */}
@@ -38,11 +40,13 @@ export default function HomePage() {
               className="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105 hover:shadow-lg"
             >
               <Link key={category.id} href={`/views/category/${category.id}`} className="block">
-                <img src={category.image} alt={category.name} href={`views/category/${category.id}`} className="w-full h-80 object-cover" />
+                <a href={`views/category/${category.id}`} className="w-full h-80 object-cover">
+                <Image src={category.image} alt={category.name} />
+                </a>
               </Link>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold mb-5">{category.name}</h3>
-                <Button variant="outline" className="mt-3 w-full">Shop Now</Button>
+                <Button  size="icon" variant="ghost">Shop Now</Button>
               </div>
             </div>
           ))}
