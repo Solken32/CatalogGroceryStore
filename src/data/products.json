@@ -1,0 +1,99 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Frutas y Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/fruit.png",
+            "subcategories": [
+                {
+                    "id": 101,
+                    "name": "Frutas",
+                    "description": "Dulces y jugosas.",
+                    "image": "/images/subcategories/frutas.jpg",
+                    "products": [
+                        {
+                            "id": 1001,
+                            "name": "Manzana Roja",
+                            "price": 1.5,
+                            "description": "Manzana orgánica.",
+                            "image": "/images/products/manzana.jpg"
+                        },
+                        {
+                            "id": 1002,
+                            "name": "Banana",
+                            "price": 0.8,
+                            "description": "Plátanos frescos.",
+                            "image": "/images/products/banana.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/dulce.jpg",
+            "subcategories": [
+                {
+                    "id": 102,
+                    "name": "Hortalizas",
+                    "description": "Verduras frescas y nutritivas.",
+                    "image": "/images/subcategories/hortalizas.jpg",
+                    "products": [
+                        {
+                            "id": 1003,
+                            "name": "Zanahoria",
+                            "price": 1.2,
+                            "description": "Zanahorias frescas.",
+                            "image": "/images/products/zanahoria.jpg"
+                        },
+                        {
+                            "id": 1004,
+                            "name": "Lechuga",
+                            "price": 0.9,
+                            "description": "Lechuga fresca.",
+                            "image": "/images/products/lechuga.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/verdurass.jpg"
+        },
+
+        {
+            "id": 4,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/verduras.jpg"
+        },
+
+        {
+            "id": 5,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/verduras.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/verduras.jpg"
+        },
+
+        {
+            "id": 7,
+            "name": "Verduras",
+            "description": "Frescas y saludables.",
+            "image": "/imagess/categories/verduras.jpg"
+        }
+    ]
+}
+
