@@ -4,7 +4,7 @@ import Image from "next/image";
 const Banner = () => {
 
   return (
-    <section className="overflow-hidden py-20 bg-[#E5EAF4]">
+    <section className="overflow-hidden py-20 bg-white">
       <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
         <div className="relative overflow-hidden z-1 rounded-lg bg-[#D0E9F3] p-4 sm:p-7.5 lg:p-10 xl:p-15">
           <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start">
@@ -18,7 +18,7 @@ const Banner = () => {
                 Compra con confianza en hodba
               </h2>
 
-              <p  className="bg-dark">Los mejores productos</p>
+              <p className="text-dark">Los mejores productos</p>
 
               {/* plus */}
               <div className="flex flex-wrap gap-6 mt-6"></div>
@@ -35,7 +35,7 @@ const Banner = () => {
             <Image
               src="/imagess/coca_cola.png"
               alt="product"
-              className="w-full max-w-[411px] h-auto aspect-[411/376] mt-6 lg:mt-0 lg:ml-10 object-contain"
+              className="w-full max-w-[411px] h-auto aspect-[411/376] mt-6 lg:mt-0 mb-4 lg:ml-10 object-contain"
               width={411}
               height={376}
             />

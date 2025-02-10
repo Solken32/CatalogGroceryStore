@@ -6,8 +6,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className=" overflow-hidden bg-[#E5EAF4]">
-      <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+    <footer className=" overflow-hidden bg-white">
+      <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0 text-dark:">
         {/* <!-- footer menu start --> */}
         <div className="flex flex-wrap xl:flex-nowrap gap-10 xl:gap-19 xl:justify-between pt-17.5 xl:pt-22.5 pb-10 xl:pb-15">
           <div className="max-w-[330px] w-full">
@@ -92,7 +92,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Facebook Social Link"
-                className="flex ease-out duration-200 hover:text-blue"
+                className="flexease-out duration-200 hover:text-blue"
               >
                 <svg
                   className="fill-current"
@@ -339,7 +339,7 @@ const Footer = () => {
             </p>
 
             <div className="flex flex-wrap items-center gap-4">
-              <p className="font-medium">Aceptamos:</p>
+              <p className="font-medium text-dark">Aceptamos:</p>
 
               <div className="flex flex-wrap items-center gap-6">
                 <a href="#" aria-label="payment system with yape">

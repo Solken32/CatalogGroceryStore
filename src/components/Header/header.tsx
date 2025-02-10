@@ -10,11 +10,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full  bg-white shadow-md">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="font-bold text-lg">
-          GrocerEase
+        <Link href="/" className="font-bold text-lg text-dark">
+          HodbaStore
         </Link>
 
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-6 text-dark">
           <Link href="#" className="text-sm font-medium hover:text-gray-600">
             Products
           </Link>
@@ -25,7 +25,7 @@ export default function Header() {
             About
           </Link>
           <Button size="icon" variant="ghost">
-            <ShoppingCart className="h-5 w-5" />
+            <ShoppingCart className="h-5 w-5 text-dark" />
           </Button>
         </nav>
 
@@ -34,7 +34,7 @@ export default function Header() {
             <ShoppingCart className="h-6 w-6" />
           </Button>
           <button className="p-2" onClick={() => setMenuOpen(true)}>
-            <Menu className="h-6 w-6" />
+            <Menu className="h-6 w-6 text-dark" />
           </button>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Header() {
             <button onClick={() => setMenuOpen(false)} className="mb-4">
               <X className="h-6 w-6" />
             </button>
-            <nav className="flex flex-col space-y-4">
+            <nav className="flex flex-col space-y-4 text-dark">
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Products</Link>
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Categories</Link>
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>About</Link>

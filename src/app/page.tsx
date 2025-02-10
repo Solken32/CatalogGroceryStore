@@ -20,7 +20,7 @@ export default function HomePage() {
 
       <Home />
       
-      <section className="w-full max-w-4xl px-6 py-20 text-center mx-auto">
+      <section className="w-full max-w-4xl px-6 py-20 text-center mx-auto bg-white">
         <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl leading-tight">
           Fresh Groceries, Delivered to Your Door
         </h1>
@@ -31,7 +31,7 @@ export default function HomePage() {
       </section>
 
       {/* Sección de Categorías */}
-      <section className="w-full px-12 py-20">
+      <section className="w-full px-12 py-20 bg-white">
         <h2 className="text-3xl font-bold text-center mb-10">Shop by Category</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.categories.map(category => (
