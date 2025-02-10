@@ -16,7 +16,7 @@ const Footer = () => {
             </h2>
 
             <ul className="flex flex-col gap-3">
-              <li className="flex gap-4.5">
+              <li className="flex gap-4.5 text-dark">
                 <span className="flex-shrink-0">
                   <svg
                     width="24"
@@ -36,7 +36,7 @@ const Footer = () => {
                 Calle la Salud, Domingo de Guzmán, Nuevo Imperial 15725
               </li>
 
-              <li>
+              <li className="text-dark">
                 <a href="https://wa.me/946395258" target="_blank" className="flex items-center gap-4.5">
                   <svg
                     width="24"
@@ -66,7 +66,7 @@ const Footer = () => {
                 </a>
               </li>
 
-              <li>
+              <li className="text-dark">
                 <a href="mailto:kenyosolt@gmail.com" target="_blank"  className="flex items-center gap-4.5">
                   <svg
                     width="24"
@@ -92,7 +92,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Facebook Social Link"
-                className="flexease-out duration-200 hover:text-blue"
+                className="flexease-out  text-dark duration-200 hover:text-blue"
               >
                 <svg
                   className="fill-current"
@@ -117,7 +117,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Twitter Social Link"
-                className="flex ease-out duration-200 hover:text-blue"
+                className="flex ease-out duration-200 text-dark hover:text-blue"
               >
                 <svg
                   className="fill-current"
@@ -137,7 +137,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Instagram Social Link"
-                className="flex ease-out duration-200 hover:text-blue"
+                className="flex ease-out duration-200 text-dark hover:text-blue"
               >
                 <svg
                   className="fill-current"
@@ -172,7 +172,7 @@ const Footer = () => {
               <a
                 href="#"
                 aria-label="Linkedin Social Link"
-                className="flex ease-out duration-200 hover:text-blue"
+                className="flex ease-out duration-200 text-dark hover:text-blue"
               >
                 <svg
                   className="fill-current"
@@ -202,7 +202,7 @@ const Footer = () => {
               Cuenta
             </h2>
 
-            <ul className="flex flex-col gap-3.5">
+            <ul className="flex flex-col gap-3.5 text-dark">
               
               {/*  <li>
                 <a className="ease-out duration-200 hover:text-blue" href="#">
@@ -237,7 +237,7 @@ const Footer = () => {
               Enlace Rápido
             </h2>
 
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-3 text-dark">
               <li>
                 <a className="ease-out duration-200 hover:text-blue" href="#">
                   Política de Privacidad

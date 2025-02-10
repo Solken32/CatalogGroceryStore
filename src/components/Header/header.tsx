@@ -44,7 +44,7 @@ export default function Header() {
         <div className="fixed inset-0 bg-black bg-opacity-50 z-40" onClick={() => setMenuOpen(false)}>
           <aside className="fixed top-0 right-0 h-full w-4/5 bg-white shadow-lg p-4">
             <button onClick={() => setMenuOpen(false)} className="mb-4">
-              <X className="h-6 w-6" />
+              <X className="h-6 w-6 text-dark" />
             </button>
             <nav className="flex flex-col space-y-4 text-dark">
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Products</Link>

@@ -34,7 +34,7 @@ const HeroFeature = () => {
 
             <div>
               <h3 className="font-medium text-lg text-dark">{item.title}</h3>
-              <p className="text-sm">{item.description}</p>
+              <p className="text-sm text-dark">{item.description}</p>
             </div>
           </div>
         ))}
