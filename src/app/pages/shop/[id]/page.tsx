@@ -2,6 +2,7 @@ import Layout from "@/components/layout";
 import Image from "next/image"
 import { products } from "@/data/products";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 
 
@@ -14,13 +15,14 @@ export async function generateStaticParams() {
 
 
 export default function ProductDetail({ params }: { params: { id: string } }) {
-
+  
+  if (!params?.id) return notFound(); // Redirige a 404 si no hay ID
   const product = products.categories
     .flatMap(category => category.subcategories)
     .flatMap(subcategory => subcategory.products)
     .find(product => product.id.toString() === params.id);
 
-  if (!product) return <h1>Producto no encontrado</h1>;
+  if (!product) return notFound();
 
   
   
