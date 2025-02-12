@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-interface Categories {
-  image: string;
-  name: string;
-}
+import { Categories } from "@/types/product";
   
 const SingleItem = ({ item }: { item: Categories }) => {
   return (

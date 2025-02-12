@@ -15,7 +15,7 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6 text-dark">
-          <Link href="#" className="text-sm font-medium hover:text-gray-600">
+          <Link href="/pages/shop" className="text-sm font-medium hover:text-gray-600">
             Products
           </Link>
           <Link href="#" className="text-sm font-medium hover:text-gray-600">
@@ -25,7 +25,7 @@ export default function Header() {
             About
           </Link>
           <Button size="icon" variant="ghost">
-            <ShoppingCart className="h-5 w-5 text-dark" />
+            <ShoppingCart className="h-5 w-5 text-white" />
           </Button>
         </nav>
 

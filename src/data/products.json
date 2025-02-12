@@ -15,16 +15,16 @@
                         {
                             "id": 1001,
                             "name": "Manzana Roja",
-                            "price": 1.5,
+                            "price": 1.50,
                             "description": "Manzana orgánica.",
-                            "image": "/images/products/manzana.jpg"
+                            "image": "/imagess/products/manzana_roja.png"
                         },
                         {
                             "id": 1002,
                             "name": "Banana",
-                            "price": 0.8,
+                            "price": 0.80,
                             "description": "Plátanos frescos.",
-                            "image": "/images/products/banana.jpg"
+                            "image": "/imagess/products/banana.png"
                         }
                     ]
                 }
@@ -45,54 +45,20 @@
                         {
                             "id": 1003,
                             "name": "Zanahoria",
-                            "price": 1.2,
+                            "price": 0.70,
                             "description": "Zanahorias frescas.",
-                            "image": "/images/products/zanahoria.jpg"
+                            "image": "/imagess/products/zanahoria.png"
                         },
                         {
                             "id": 1004,
                             "name": "Lechuga",
-                            "price": 0.9,
+                            "price": 1.20,
                             "description": "Lechuga fresca.",
-                            "image": "/images/products/lechuga.jpg"
+                            "image": "/imagess/products/lechuga.png"
                         }
                     ]
                 }
             ]
-        },
-        {
-            "id": 3,
-            "name": "Verduras",
-            "description": "Frescas y saludables.",
-            "image": "/imagess/categories/verdurass.jpg"
-        },
-
-        {
-            "id": 4,
-            "name": "Verduras",
-            "description": "Frescas y saludables.",
-            "image": "/imagess/categories/verduras.jpg"
-        },
-
-        {
-            "id": 5,
-            "name": "Verduras",
-            "description": "Frescas y saludables.",
-            "image": "/imagess/categories/verduras.jpg"
-        },
-
-        {
-            "id": 6,
-            "name": "Verduras",
-            "description": "Frescas y saludables.",
-            "image": "/imagess/categories/verduras.jpg"
-        },
-
-        {
-            "id": 7,
-            "name": "Verduras",
-            "description": "Frescas y saludables.",
-            "image": "/imagess/categories/verduras.jpg"
         }
     ]
 }
