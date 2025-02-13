@@ -1,12 +1,10 @@
 import Layout from "@/components/layout";
 import Shop from "@/components/Shop";
+import { Metadata } from "next";
 
-//import { Metadata } from "next";
-// export const metadata: Metadata = {
-  // title: "HoodbaEcommerce",
-  //description: "Encuentra todo  en un solo lugar",
-  // other metadata
-//};
+export const metadata: Metadata = {
+    title: "HoodbaProductos",
+}
 
 export default function ShopPage() {
     

@@ -47,7 +47,7 @@ export default function Header() {
               <X className="h-6 w-6 text-dark" />
             </button>
             <nav className="flex flex-col space-y-4 text-dark">
-              <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Products</Link>
+              <Link href="/pages/shop" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Products</Link>
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>Categories</Link>
               <Link href="#" className="text-lg font-medium" onClick={() => setMenuOpen(false)}>About</Link>
               <Button size="lg" variant="outline">Shop Now</Button>

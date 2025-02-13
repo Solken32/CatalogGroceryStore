@@ -19,7 +19,7 @@ export default function SingleProduct({ id }: { id: string }){
 
 
     const phoneNumber = "946395258";   
-    const url = `http://catalogstore/pages/shop/${product.id}`;
+    const url = `http://catalogstore.vercel.app/pages/shop/${product.id}`;
     const message = encodeURIComponent(
     `Hola, estoy interesado en el producto "${product.name}". ¿Podrías darme más información?\n${url}`
     );
@@ -28,7 +28,7 @@ export default function SingleProduct({ id }: { id: string }){
 
     return (
             <section className="overflow-hidden relative pb-20 pt-5 lg:pt-20 xl:pt-15">
-                    <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
+                    <div className=" bg-white max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
                     <div className="flex flex-col lg:flex-row gap-7.5 xl:gap-17.5">
                         <div className="lg:max-w-[570px] w-full">
                         <div className="lg:min-h-[512px] rounded-lg shadow-1 bg-gray-2 p-4 sm:p-7.5 relative flex items-center justify-center">
@@ -178,7 +178,7 @@ export default function SingleProduct({ id }: { id: string }){
                                 </svg>
                             </div>
         
-                            <span> (5 customer reviews) </span>
+                            <span className="text-dark"> (5 customer reviews) </span>
                             </div>
         
                             <div className="flex items-center gap-1.5">
@@ -212,16 +212,16 @@ export default function SingleProduct({ id }: { id: string }){
         
                         <h3 className="font-medium text-custom-1 mb-4.5">
                             <span className="text-sm sm:text-base text-dark">
-                            Price: ${product.price}
+                            Price:
                             </span>
-                            <span className="line-through">
+                            <span className="text-dark ">
                             {" "}
-                            ${product.price}{" "}
+                            S/{product.price}{" "}
                             </span>
                         </h3>
         
                         <ul className="flex flex-col gap-2">
-                            <li className="flex items-center gap-2.5">
+                            <li className="flex items-center gap-2.5 text-dark">
                             <svg
                                 width="20"
                                 height="20"
@@ -243,7 +243,7 @@ export default function SingleProduct({ id }: { id: string }){
                             Free delivery available
                             </li>
         
-                            <li className="flex items-center gap-2.5">
+                            <li className="flex items-center gap-2.5 text-dark">
                             <svg
                                 width="20"
                                 height="20"
@@ -296,9 +296,9 @@ export default function SingleProduct({ id }: { id: string }){
                             <Link
                                 href={whatsappUrl}
                                 target="_blank"
-                                className="w-full  inline-flex font-medium text-white bg-green py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark"
+                                className="w-full inline-flex font-medium text-white bg-green py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark"
                             >
-                                Finalizar compra por Whatsapp
+                                Finalizar compra por Whatsapp 
                             </Link>
                             </div>
                         

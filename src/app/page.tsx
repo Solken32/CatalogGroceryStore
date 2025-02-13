@@ -3,15 +3,6 @@ import { Button } from "@/components/ui/button";
 import Home from "@/components/Home";
 import { products } from "@/data/products";
 import Link from "next/link";
-import { Metadata } from "next";
-
-
-
-export const metadata: Metadata = {
-  title: "HoodbaEcommerce",
-  description: "Encuentra todo  en un solo lugar",
-  // other metadata
-};
 
 export default function HomePage() {
   return (
